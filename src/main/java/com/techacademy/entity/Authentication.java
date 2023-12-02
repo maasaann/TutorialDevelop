@@ -27,7 +27,7 @@ public class Authentication {
     /** ユーザID */
     @OneToOne
     @JoinColumn(
-            name="user_id",
-            referencedColumnName="id")
+     name="user_id",
+     referencedColumnName="id")
     private User user;
 }
